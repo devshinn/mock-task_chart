@@ -1,0 +1,17 @@
+.wrap {
+  padding: 20px;
+}
+
+.chart-wrap {
+  max-width: 80% !important;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-flex;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(150, 255, 255);
+}
