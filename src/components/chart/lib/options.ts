@@ -28,7 +28,7 @@ export const options: ChartOptions<'bar' | 'line'> = {
       },
     },
 
-    bar: {
+    barAxis: {
       type: 'linear' as const,
       display: true,
       position: 'right' as const,
@@ -38,7 +38,7 @@ export const options: ChartOptions<'bar' | 'line'> = {
       },
     },
 
-    area: {
+    areaAxis: {
       type: 'linear' as const,
       display: true,
       position: 'left' as const,

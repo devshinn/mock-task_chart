@@ -39,7 +39,6 @@ export function ChartApp() {
   const [checkedRegions, setCheckedRegions] = useState<string[]>([]);
   const data = {
     labels: datelabels,
-
     datasets: [
       {
         type: 'line' as const,
@@ -52,7 +51,7 @@ export function ChartApp() {
         cubicInterpolationMode: 'monotone',
         pointRadius: 0,
         tension: 0.5,
-        yAxisID: 'area',
+        yAxisID: 'areaAxis',
         xAxisID: 'xx',
       },
       {
@@ -60,15 +59,15 @@ export function ChartApp() {
         label: 'value_bar',
         backgroundColor: extractedData.map(item => {
           if (checkedRegions.includes(item.id)) {
-            return 'rgb(87, 65, 192)'; // 빨간색
+            return 'rgb(87, 65, 192)';
           } else {
-            return 'rgb(86, 187, 255)'; // 기본 색상
+            return 'rgb(86, 187, 255)';
           }
         }),
         data: extractedData.map(moc => moc.value_bar),
         borderColor: 'white',
         borderWidth: 2,
-        yAxisID: 'bar',
+        yAxisID: 'barAxis',
         xAxisID: 'xx',
       },
     ],

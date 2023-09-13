@@ -1,6 +1,6 @@
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { ChartApp } from 'components/chart/Chart';
+import { ChartApp } from 'components/chart/ChartApp';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
