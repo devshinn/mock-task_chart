@@ -1,4 +1,3 @@
-
 ## 개요
 
 - 원티드 프리온보딩 4주차 개인 과제
@@ -9,7 +8,7 @@
 
 ## 개발 환경 및 배포 URL
 
-[🔗 배포링크](https://fabulous-griffin-dd0b4f.netlify.app).
+[🔗 배포링크](https://fabulous-griffin-dd0b4f.netlify.app)
 
 ## 프로젝트 구조
 
@@ -46,7 +45,7 @@
 
 ## chart.js 선택 이유
 
-npm trends 에서 차트 라이브러리중 제일 많이 다운로드 하였기에, 
+npm trends 에서 차트 라이브러리중 제일 많이 다운로드 하였기에,
 
 추후 에러나 문제발생시 해결하기 수월하기 때문에 chart.js를 선택.
 
