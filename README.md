@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# 👹 원티드 프리온보딩 4주차 과제 👹
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 개요
 
-## Available Scripts
+- 🦁 원티드 프리온보딩 4주차 개인 과제
 
-In the project directory, you can run:
+## 프로젝트 목표
 
-### `npm start`
+시계열 데이터를 차트로 보여주기.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 개발 환경 및 배포 URL
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[🔗 배포링크]()
 
-### `npm test`
+## 프로젝트 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+...
+├─ src
+│  ├─ App.test.tsx
+│  ├─ App.tsx
+│  ├─ components
+│  │  └─ chart
+│  │     ├─ chart.css
+│  │     ├─ ChartApp.tsx
+│  │     ├─ lib
+│  │     │  └─ options.ts
+│  │     └─ RegionsCheckBox.tsx
+│  ├─ data
+│  │  ├─ data.json
+│  │  └─ index.ts
+│  ├─ index.css
+│  ├─ index.tsx
+│  ├─ logo.svg
+│  ├─ react-app-env.d.ts
+│  ├─ reportWebVitals.ts
+│  └─ setupTests.ts
+└─ tsconfig.json
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 기술 스택
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=black"/> 
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/Chart.js-white?style=flat-square&logo=chart.js&logoColor=FF6384">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## chart.js 선택 이유
 
-### `npm run eject`
+npm trends 에서 차트 라이브러리중 제일 많이 다운로드 하였기에, 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+추후 에러나 문제발생시 해결하기 수월하기 때문에 chart.js를 선택.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 필터링 전 차트 이미지
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="831" alt="필터전 차트 이미지 " src="https://github.com/devshinn/mock-task_chart/assets/73675549/53451586-4bec-4b43-8287-fad87318616b">
 
-## Learn More
+#### 필터링 후 차트 이미지
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="831" alt="필터링 후 차트 이미지" src="https://github.com/devshinn/mock-task_chart/assets/73675549/2d6a7ffb-6a43-437d-9e40-a19f7abae798">
