@@ -68,7 +68,8 @@ export function ChartApp() {
 
         data: extractedData.map(moc => moc.value_bar),
         borderColor: 'white',
-        borderWidth: 2,
+        borderWidth: 0,
+
         yAxisID: 'barAxis',
         xAxisID: 'xx',
       },
