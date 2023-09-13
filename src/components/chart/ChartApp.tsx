@@ -1,6 +1,6 @@
 import './chart.css';
-import { options } from './lib/options';
 import RegionsCheckBox from './RegionsCheckBox';
+import { options } from './utils/options';
 import {
   BarController,
   BarElement,
