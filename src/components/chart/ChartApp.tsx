@@ -64,6 +64,8 @@ export function ChartApp() {
             return 'rgb(86, 187, 255)';
           }
         }),
+        hoverBackgroundColor: '#ff8282',
+
         data: extractedData.map(moc => moc.value_bar),
         borderColor: 'white',
         borderWidth: 2,

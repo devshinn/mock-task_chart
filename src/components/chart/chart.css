@@ -1,9 +1,15 @@
 .wrap {
-  padding: 20px;
-  background-color: antiquewhite;
+  height: 100%;
+  background: linear-gradient(
+    130deg,
+    rgb(106, 221, 190) 0%,
+    rgb(83 185 247) 81%,
+    rgb(93, 184, 161) 100%
+  );
 }
 
 .chart-wrap {
+  padding: 20px;
   max-width: 80% !important;
   margin: 0 auto;
 }
@@ -19,7 +25,12 @@ ul {
 
 canvas {
   border-radius: 1rem;
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(
+    130deg,
+    rgb(85, 255, 210) 0%,
+    rgb(83, 247, 119) 81%,
+    rgb(65, 192, 154) 100%
+  );
   box-shadow:
     0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
