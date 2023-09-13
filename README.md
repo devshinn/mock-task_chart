@@ -9,7 +9,7 @@
 
 ## 개발 환경 및 배포 URL
 
-[🔗 배포링크]("https://fabulous-griffin-dd0b4f.netlify.app/")
+[🔗 배포링크](https://fabulous-griffin-dd0b4f.netlify.app)
 
 ## 프로젝트 구조
 
